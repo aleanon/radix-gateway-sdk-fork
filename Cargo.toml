@@ -6,14 +6,14 @@ license = "MIT"
 repository = "https://github.com/borderline-labs/radix-gateway-sdk"
 
 [dependencies]
-chrono = { version = "0.4.26", features = ["serde"] }
-derive_more = { version = "1.0.0-beta.6", features = ["from"] }
-futures = "0.3.25"
-http = "0.2.12"
-httpclient = "0.22.1"
-lazy_static = "1.4.0"
-serde = { version = "1.0.137", features = ["derive"] }
-serde_json = "1.0.81"
+chrono = { version = "0.4.39", features = ["serde"] }
+derive_more = { version = "1.0.0", features = ["from"] }
+futures = "0.3.31"
+http = "1.2.0"
+httpclient = "0.23.21"
+lazy_static = "1.5.0"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.133"
 
 [dev-dependencies]
-tokio = { version = "1.18.2", features = ["full"] }
+tokio = { version = "1.42.0", features = ["full"] }
